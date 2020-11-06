@@ -1,0 +1,177 @@
+.containerDefault{
+
+    padding-top: 25px;
+    margin-top: 90px;
+    margin-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.containerDefaultLogin{
+
+    padding-top: 30px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+html{
+
+    min-height: 100%;
+
+}
+.body{
+
+    background-image: url('../images/fond.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+
+}
+
+.fondAdmin{
+
+    background-color:rgb(230,230,230);
+    min-height: 100%;
+
+}
+
+.containerDefaultDeux{
+
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.imageAccueil{
+
+    width: 400px;
+
+}
+
+.boutonListe{
+
+    margin-right: 15px;
+
+}
+
+.accueil{
+
+    min-height: 150px;
+
+}
+
+.bienvenue{
+
+    margin-bottom: 30px;
+
+}
+
+.login{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+
+}
+
+.cadreEpisode{
+
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(230, 230, 230);
+    transition: transform 0.2s linear;
+
+}
+
+.cadreCommentaire{
+
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(230, 230, 230);
+
+}
+
+.cadreEpisode:hover{
+
+    transform: scale(0.99);
+
+}
+
+.nomCommentaire{
+
+    font-weight: bold;
+
+}
+
+.containerCom{
+
+    padding-top: 10px;
+    padding-bottom: 0.5px;
+
+}
+
+@media screen and (max-width: 770px) {
+
+    .imageAccueil{
+
+        width: 100%;
+
+    }
+
+    .containerDefaultLogin{
+
+        padding-top: 60px;
+    
+    }
+
+    .containerDefaultDeux{
+
+        padding-top: 125px;
+    
+    }
+
+    .boutonListe{
+
+        margin-right: 0px;
+        margin-bottom: 8px;
+    
+    }
+
+    .accueil{
+
+        min-height: 250px;
+    
+    }
+
+    .bienvenue{
+
+        margin-bottom: 30px;
+
+    }
+
+    .containerDefault{
+
+        margin-top: 125px;
+        margin-bottom: 50px;
+    
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+
+
+}
